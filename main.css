@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #fff;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+.header{
+    padding: 45px 0;
+    border-bottom: 2px solid #dedbdb;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+}
+.language{
+    color: #424242;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    background-color: transparent;
+    border: none;
+}
+.hero{
+    padding: 43px 0;
+}
+.hero__wrapper{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #dedbdb;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 60px 53px 34px 64px;
+}
+.hero__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__exit{
+    display: flex;
+    align-items: center;
+    color: #f0400f;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.hero__exit img{
+    margin-left: 20px;
+}
+.title{
+    color: #0e0d5d;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 133px;
+}
+.form{
+    max-width: 533px;
+    width: 100%;
+    
+}
+.form__wrapper{
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    margin: 20px auto;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pupil{
+    width: 255px;
+    background-color: transparent;
+    color: rgb(117, 117, 117);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border: none;
+}
+.pupil:hover{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.form__info{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    padding: 20px 0 20px 51px;
+    outline: none;
+    margin-bottom: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.form__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px 20px 51px;
+    outline: none;
+    margin-bottom: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.form__info input{
+    outline: none;
+    border: none;
+    padding: 5px 0;
+    background-color: transparent;
+}
+.form__info button {
+    border: none;
+    background-color: transparent;
+}
+::placeholder{
+    color: rgba(117, 117, 117, 0.7);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.qrCode{
+    color: rgba(0, 0, 0, 0.64);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-bottom: 34px;
+}
+.submit{
+    max-width: 202px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 17px 0;
+    border: none;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #f69e86;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.switch{
+    background-color: orangered;
+    transition: all;
+}
+.koz{
+    background-image: url("./images/koz.png");
+    width: 30px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.student__wrapper{
+    width: 380px;
+    border-radius: 16px 16px 24px 24px;
+    background: rgb(255, 255, 255);
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    border: linear-gradient(180deg, #000000, #ffffff) 1px solid;
+}
+
+.tittle {
+    color: rgb(14, 13, 93);
+    font-family: "Urbanist";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.group {
+    color: rgb(189, 189, 189);
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.coin {
+    border-radius: 16px;
+    /* Card/Shadow 2 */
+    box-shadow: 0px 4px 60px 0px rgba(15, 5, 4, 0.05);
+    /* Gradients/Gradient Blue */
+    background: linear-gradient(-45.00deg, rgb(227, 61, 14),rgb(255, 125, 88) 100%);
+    width: 380px;
+    height: 75px;
+    padding: 16.5px 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Urbanist";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.reset {
+    width: 171.33px;
+    height: 56px;
+    border: none;
+    color: rgb(170, 170, 170);
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 122%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.header_btn {
+    box-sizing: border-box;
+    border: 3px solid rgb(239, 64, 15);
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0);
+    color: rgb(239, 64, 15);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 16px 17px 18px 22px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: rgb(188, 170, 170);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.header_img {
+    padding-top: 20px;
+}
+
+.header {
+    padding: 46px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 170, 170);
+    box-shadow: 0px 4px 8.7px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.mag {
+    padding-top: 40px;
+}
+
+.mag_title {
+    color: rgb(13, 12, 92);
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.mag_ttitle {
+    display: flex;
+    gap: 20px;
+}
+
+.mag_mintitle {
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.mag_price {
+    color: rgba(0, 0, 0, 0.67);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.mag_mav {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+
+
+.mag_item {
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 290px;
+    height: 290px;
+}
+
+.mag_img {
+    padding: 44px 54px 0 54px;
+}
+
+.mag_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    gap: 35px;
+}
+
+.mag_coinbox {
+    display: flex;
+}
+
+.mag_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+
+}
+
+#shopInput {
+    width: 500px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding: 30px;
+    background: #424242;
+    color: white;
+}
+
+.btn_btn-primary {
+    width: 400px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    padding: 30px;
+    background: #c7c7c7;
+}
+
+#submit {
+    width: 100px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color: #424242;
+    color: #727272;
+    font-size: 20px;
+}
